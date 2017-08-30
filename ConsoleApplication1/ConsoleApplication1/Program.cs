@@ -17,7 +17,7 @@ namespace ConsoleApplication1
 		public void state()
 		{
 			int i;
-
+			int j;
 		}
 	}
 }

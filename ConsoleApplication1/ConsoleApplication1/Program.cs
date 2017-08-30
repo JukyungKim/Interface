@@ -24,6 +24,7 @@ namespace ConsoleApplication1
 			
 			int a;
 			int b;
+			int c;
 		}
 	}
 }

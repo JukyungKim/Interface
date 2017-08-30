@@ -23,6 +23,7 @@ namespace ConsoleApplication1
 			int m;
 			
 			int a;
+			int b;
 		}
 	}
 }

@@ -17,14 +17,42 @@ namespace ConsoleApplication1
 		public void state()
 		{
 			int i;
-			int j;
-			int k;
-			int l;
-			int m;
-			
-			int a;
-			int b;
-			int c;
+
 		}
+	}
+	abstract public class Animal
+	{
+		int value;
+		abstract public void Sound();
+	}
+
+	public class Cat : Animal
+	{
+
+		public override void Sound()
+		{
+			throw new NotImplementedException();
+		}
+	}
+
+	interface IAnimal
+	{
+		void Sound();
+	}
+	interface IBird
+	{
+		void Size();
+	}
+	public class dog : IAnimal, IBird
+	{
+		public void Sound()
+		{
+
+		}
+		public void Size()
+		{
+
+		}
+ 
 	}
 }
